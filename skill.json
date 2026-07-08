@@ -1,0 +1,40 @@
+{
+  "name": "order-delivery-estimator-skill",
+  "version": "1.0.0",
+  "description": "Calculates estimated delivery windows based on courier lead times and shipping zone distance scales.",
+  "author": "alphaparkinc",
+  "category": "logistics",
+  "tags": [
+    "delivery",
+    "logistics",
+    "estimator",
+    "fulfillment",
+    "shipping"
+  ],
+  "inputs": {
+    "shipping_zone": {
+      "type": "integer",
+      "description": "Logistics zone index (e.g. 1 to 8)."
+    },
+    "courier": {
+      "type": "string",
+      "description": "Courier code (UPS, FedEx, USPS)."
+    },
+    "processing_days": {
+      "type": "integer",
+      "description": "Warehouse packaging delay days."
+    }
+  },
+  "outputs": {
+    "min_days": {
+      "type": "integer",
+      "description": "Minimum delivery business days."
+    },
+    "max_days": {
+      "type": "integer",
+      "description": "Maximum delivery business days."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
