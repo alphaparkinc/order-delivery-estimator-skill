@@ -1,5 +1,5 @@
 {
-  "name": "order-delivery-estimator-skill",
+  "name": "genpark-order-delivery-estimator-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Calculates estimated delivery windows based on courier lead times and shipping zone distance scales.",
   "author": "genpark",
