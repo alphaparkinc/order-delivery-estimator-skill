@@ -1,4 +1,4 @@
-# order-delivery-estimator-skill
+# genpark-order-delivery-estimator-skill
 
 > **GenPark AI Agent Skill** -- Shipping delivery timeline estimator.
 
